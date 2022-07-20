@@ -13,10 +13,12 @@ namespace TeduShop.Model.Models
     {
         [Key]
         [Required]
+        [Column(Order =1)]
         public int PostID { set; get; }
         [Key]
         [Required]
-        public int TagID { set; get; }
+        [Column(TypeName ="varchar", Order =2)]
+        public string TagID { set; get; }
 
         [ForeignKey("PostID")]
         public virtual Post Posts { set; get; }

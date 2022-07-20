@@ -13,9 +13,11 @@ namespace TeduShop.Model.Models
     {
         [Key]
         [Required]
+        [Column(Order =1)]
         public int ProductID { set; get; }
         [Key]
         [Required]
+        [Column(TypeName ="varchar",Order =2)]
         public string TagID { set; get; }
 
         [ForeignKey("ProductID")]
