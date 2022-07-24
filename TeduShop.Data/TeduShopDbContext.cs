@@ -15,7 +15,7 @@ namespace TeduShop.Data
         public DbSet<Order> Orders { set; get; }
         public DbSet<OrderDetail> OrderDetails { set; get; }
         public DbSet<Page> Pages { set; get; }
-        public DbSet<Post> Post { set; get; }
+        public DbSet<Post> Posts { set; get; }
         public DbSet<PostCategory> PostCategories { set; get; }
         public DbSet<PostTag> PostTags { set; get; }
         public DbSet<Product> Products { set; get; }
