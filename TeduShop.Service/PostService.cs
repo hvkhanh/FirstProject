@@ -62,7 +62,7 @@ namespace TeduShop.Service
 
         public Post GetById(int id)
         {
-            return _postRepository.GetSingleByID(id);
+            return _postRepository.GetSingleById(id);
         }
 
         public void SaveChange()
