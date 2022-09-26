@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace TeduShop.Web.Models
 {
@@ -28,10 +26,9 @@ namespace TeduShop.Web.Models
 
         public string CreatedBy { set; get; }
 
-        public DateTime? UpdatedDate { set; get; }
+        public DateTime? UpdateDate { set; get; }
 
-
-        public string UpdatedBy { set; get; }
+        public string UpdateBy { set; get; }
 
 
         public string MetaKeyword { set; get; }
@@ -39,5 +36,11 @@ namespace TeduShop.Web.Models
         public string MetaDescription { set; get; }
 
         public bool Status { set; get; }
+
+
+
+        
+
+        
     }
 }
